@@ -46,7 +46,9 @@ ansible-galaxy init wordpress
 ```
 ansible-playbook -i inventory main.yml
 ```
+
 Once the above steps has been completed, your wordpress will be ready in the specified domain name.
+
 
 ## Result
 
