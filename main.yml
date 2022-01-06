@@ -1,0 +1,7 @@
+---
+- name: "Installing LAMP & wordpress"
+  hosts: amazon
+  become: true
+  roles:
+    - lamp
+    - wordpress
